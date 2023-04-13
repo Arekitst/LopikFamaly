@@ -1,0 +1,43 @@
+.up {
+	background: #F0EDF6;
+}
+.sitename{
+	font-size: 29px;
+	transition: 0.9s ;
+
+}
+.sitename:hover{
+	color: #7953C6;
+	cursor: default;
+}
+.inpravila{
+	text-decoration: none;
+	background:#F0EDF6;
+	transition: 1s;
+	font-size: 30px;
+	font-family: arial black;
+}
+.inpravila:hover{
+	color: #7953C6;
+}
+#pravila{
+background: #ACACAC;
+
+}
+#hello{
+	background: #BFBFBF;
+}
+.hi{
+	background: #DAD9D9;
+}
+#down {
+	background: #212121;
+}
+#help{
+	background: #DAD9D9;
+	border-radius: 5px;
+	transition: 1s;
+}
+#help:hover{
+	background: #BFBFBF ;
+}
