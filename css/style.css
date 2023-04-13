@@ -37,7 +37,27 @@ background: #ACACAC;
 	background: #DAD9D9;
 	border-radius: 5px;
 	transition: 1s;
+	width: 100px;
+	height: 30px;
+	transition: 1s;
+	
+}
+@keyframes rainb{
+	from {
+		background: transparent;
+		color: white;
+	}
+	to {
+		background: #4200FF;
+		color: white;
+	}
 }
 #help:hover{
-	background: #BFBFBF ;
+	animation:rainb 6s infinite alternate;
+	
+
+}
+.plusi{
+	font-size: 30px;
+	font-family: arial fantasy black sheriff;
 }
