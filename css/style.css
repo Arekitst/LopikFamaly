@@ -44,20 +44,38 @@ background: #ACACAC;
 }
 @keyframes rainb{
 	from {
-		background: transparent;
+		background: orangered;
 		color: white;
 	}
 	to {
-		background: #4200FF;
+		background: blue;
 		color: white;
 	}
 }
 #help:hover{
-	animation:rainb 6s infinite alternate;
+	animation:rainb 2s infinite alternate;
 	
 
 }
-.plusi {
+.plusi{
 	font-size: 30px;
 	font-family: arial fantasy black sheriff;
+}
+.ptrade{
+	color: black;
+	font-family: Arial, Black;
+	animation: tradep 3s infinite alternate;
+	transform: translate(375px, -200px)
+}
+@keyframes tradep{
+
+	from {
+		transform: translate(375px, -230px);
+		color: orangered;
+	}
+	to {
+		color: greenyellow;
+		transform: translate(390px, -170px)
+	} 
+
 }
